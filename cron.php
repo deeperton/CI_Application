@@ -1,6 +1,14 @@
 #!/usr/local/bin/php
 <?php
-
+/**
+ * MY_CI
+ *
+ * LICENSE: LGPL
+ * 
+ * @package	   CI_application
+ * @author	   Not known
+ * @version    0.1
+*/
 
 	/* we don't need to be limited by...normal limitations */
 	set_time_limit(0);

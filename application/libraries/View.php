@@ -1,11 +1,16 @@
 <?php
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * Simple render class
- * It's a part of TEngineEx
+ * MY_CI
+ *
+ * LICENSE: LGPL
  * 
- * @author Artyuh Anton <deeperton@gmail.com>
- */
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.1
+*/
 class View {
     const TITLE = 'title';
     const KEYWORDS = 'keywords';

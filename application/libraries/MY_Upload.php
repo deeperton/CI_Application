@@ -1,9 +1,15 @@
 <?php
 /**
- * Description of MY_Upload
+ * MY_CI
  *
- * @author toxa
- */
+ * LICENSE: LGPL
+ * 
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.1
+*/
 class MY_Upload extends CI_Upload {
 
     function do_upload($field = 'userfile', $file_name = null, $resize_rects = null){

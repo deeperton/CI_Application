@@ -1,9 +1,16 @@
 <?php
 /**
- * Description of Autoloader
+ * MY_CI
  *
- * @author toxa
- */
+ * LICENSE: LGPL
+ * 
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.1
+*/
+
 class Autoloader {
 
     public static function registerAutoloader(){

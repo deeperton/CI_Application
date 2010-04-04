@@ -1,9 +1,16 @@
 <?php
 
 /**
- * @author Artyuh Anton <deeperton@gmail.com>
- * @copyright MID 2009
- */
+ * MY_CI
+ *
+ * LICENSE: LGPL
+ * 
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.1
+*/
 
 //$conf['scripts'][] = 'js/tiny_mce_init.js';
 $conf['title'] = array('value' => 'Site title', 'method' => 'prepend');

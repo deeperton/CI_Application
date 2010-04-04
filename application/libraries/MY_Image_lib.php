@@ -1,9 +1,15 @@
 <?php
 /**
- * Description of MY_Image_lib
+ * MY_CI
  *
- * @author aartyuh
- */
+ * LICENSE: LGPL
+ * 
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.1
+*/
 class MY_Image_lib extends CI_Image_lib {
     /**
 	 * Image Process Using GD/GD2

@@ -1,5 +1,15 @@
 <?php (defined('BASEPATH')) OR exit('No direct script access allowed');
-
+/**
+ * MY_CI
+ *
+ * LICENSE: LGPL
+ * 
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.1
+*/
 class MY_Router extends CI_Router
 {
     const MAIN = 'main';

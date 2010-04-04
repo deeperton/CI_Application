@@ -1,4 +1,15 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ * MY_CI
+ *
+ * LICENSE: LGPL
+ * 
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.1
+*/
 
 class Memcache {
     const TAGS_CACHE_CLOUD = '__tags_cache_cloud';

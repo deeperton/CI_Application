@@ -14,7 +14,18 @@
  */
 
 // ------------------------------------------------------------------------
+/**
+ * MY_CI
+ *
+ * 
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.1
+*/
 
+// ------------------------------------------------------------------------
 /**
  * Pagination Class
  *
