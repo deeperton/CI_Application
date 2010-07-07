@@ -450,6 +450,39 @@ class View {
                 if(isset($conf['description'])){
                     $this->addToParam('description', $conf['description']['value'], $conf['description']['method']);
                 }
+                if(isset($conf['base_style_order'])){
+                    $this->base_style_order = $conf['base_style_order'];
+                }
+                if(isset($conf['compile_styles'])){
+                    $this->compile_styles = $conf['compile_styles'];
+                }
+                if(isset($conf['style_no_compile_for_mask'])){
+                    $this->style_no_compile_for_mask = $conf['style_no_compile_for_mask'];
+                }
+                if(isset($conf['style_sum_dir'])){
+                    $this->style_sum_dir = $conf['style_sum_dir'];
+                }
+                
+                if(isset($conf['doctype'])){
+                    $this->doctype = $conf['doctype'];
+                }
+                if(isset($conf['encode'])){
+                    $this->encode = $conf['encode'];
+                }
+                if(isset($conf['begin_html'])){
+                    if(count($this->begin_html) > 0){
+                        $this->begin_html = array_merge($this->begin_html, $conf['begin_html']);
+                    } else {
+                        $this->begin_html = $conf['begin_html'];
+                    }
+                }
+                if(isset($conf['end_html'])){
+                    if(count($this->end_html) > 0){
+                        $this->end_html = array_merge($this->end_html, $conf['end_html']);
+                    } else {
+                        $this->end_html = $conf['begin_html'];
+                    }
+                }
             }
             $this->view_system_init = true;
         }

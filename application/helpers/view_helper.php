@@ -16,8 +16,8 @@ function v_addStyle($path, $media = ''){
     return get_instance()->view->addStyle($path, $media);
 }
 
-function v_addScript($path, $language = 'javascript', $type ='text/javascript'){
-    return get_instance()->view->addScript($path, $language, $type);
+function v_addScript($path, $pr = 5, $language = 'javascript', $type ='text/javascript'){
+    return get_instance()->view->addScript($path, $pr, $language, $type);
 }
 
 function v_addRawScript($code, $language = 'javascript', $type = 'text/javascript'){
