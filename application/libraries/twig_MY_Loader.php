@@ -1,15 +1,17 @@
 <?php
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
         load_class('Twig/Autoloader', false);
         Twig_Autoloader::register();
 /**
- * Description of MY_Loader
+ * MY_CI
  *
- * @author toxa
- */
+ * LICENSE: LGPL
+ * 
+ * @package	   CI_application
+ * @author	   Artyuh Anton 
+ * @copyright  Artyuh Anton 2010
+ * @link http://github.com/deeperton/CI_Application
+ * @version    0.2
+*/
 class MY_Loader extends CI_Loader{
 
     private $tw_loader;
